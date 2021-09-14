@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	animation: mymove 20s infinite;
+	background-color: #be97d6;
+}
+.bg_color {
+	background-color: #be97d6;
+}
+#centrage {
+	display: inline-block;
+	text-align: center;
+}
+
+/* @keyframes mymove {
+	0% {
+		top: 0px;
+		left: 0px;
+		background: red;
+	}
+	25% {
+		top: 0px;
+		left: 100px;
+		background: blue;
+	}
+	50% {
+		top: 100px;
+		left: 100px;
+		background: yellow;
+	}
+	75% {
+		top: 100px;
+		left: 0px;
+		background: green;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		background: red;
+	}
+} */
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+  
